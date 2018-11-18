@@ -1,0 +1,38 @@
+fieldset.form_radiobutton {
+    background-image: url(check-bg.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+    background-color: rgb(252, 252, 216);
+    max-width: 750px;
+}
+
+legend.form_radiobutton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: saddlebrown;
+    font-size: 1.2em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1em;
+}
+
+input {
+    margin: 20px 10px 0 175px;
+}
+
+input.button {
+    background-color: saddlebrown;
+    color: white;
+    box-shadow: 0 0 0 2px white;
+    border: none;
+}
+
+input.button:hover {
+    color: red;
+}
+
+input.button:active {
+    background-color: yellow;
+    color: aqua;
+}
